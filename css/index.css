@@ -1,0 +1,35 @@
+#index {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #index td, #index th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  
+  #index tr:hover {background-color: #ddd;}
+  
+  #index th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: #DDD;
+    background-image: url("index1.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: 100%;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}

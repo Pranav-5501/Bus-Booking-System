@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="css/feedback.css"
     </head>
     <body>
         <a href="./index.html">HOME</a>
         <h1 align="center"><b><i>Give your warm feedback</i></b></h1>
-        <div class="feedback" align="center">
-            Email: <input type="email" name="usrname">
-            <br><br>
-            feedback: <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
-            <br>
-            <br>
-            <input type="submit" name="submit" value="submit">
-            <br><br>
-            
-        </div>
+        <div class="container">
+            <form>
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Id..">
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </body>
 </html>

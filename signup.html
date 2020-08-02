@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+    <link rel="stylesheet" href="css/signup.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Erica+One&display=swap" rel="stylesheet">
     </head>
     <body>
-        <a href="./index.html">HOME</a>
-        <div class = "sign-up box" align="center">
-            <h1>sign-up hear</h1>
-            <p>Username</p>
-            <input type="text" name="Username">
-            <p>Email</p>
-            <input type="email" name="Email">
-            <p>Password</p>
-            <input type="password" name="Password">
-            <p>Confirm Password</p>
-            <input type="password" name="confirm password"><br><br>
-            <input type="submit" value="sign-up" name="sign-up" /><br><br>
-            <p1><a href="./login.html">Log-in</a></p1>
-            <br><br>
-        </div>
+        <h5 align="center">GUJARAT STATE ROAD TRANSPORT CORPORATION</h5>
+
+        <div class = "link"><a href="./index.html">Home</a></div>
+        
+        <div id="login-box">
+            <div class="left">
+              <h1>Sign up</h1>
+              
+              <input type="text" name="username" placeholder="Username" />
+              <input type="text" name="email" placeholder="E-mail" />
+              <input type="password" name="password" placeholder="Password" />
+              <input type="password" name="password2" placeholder="Retype password" />
+              
+              <input type="submit" name="signup_submit" value="Sign me up" />
+            </div>
+            
+            <div class="right">
+              <span class="loginwith">Sign in with<br />social network</span>
+              
+              <button class="social-signin facebook" onclick="document.location='https://www.facebook.com/'">Log in with facebook</button>
+              <button class="social-signin twitter" onclick="document.location='https://twitter.com/LOGIN'">Log in with Twitter</button>
+              <button class="social-signin google" onclick="document.location='https://myaccount.google.com/?utm_source=sign_in_no_continue'">Log in with Google+</button>
+              <button class="social-signin user" onclick="document.location='login.html'">Log in with Username</button>
+            </div>
+            <div class="or">OR</div>
+          </div>
     </body>
 </html>
