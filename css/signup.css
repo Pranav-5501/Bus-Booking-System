@@ -6,8 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #DDD;
-  background-image: url("colorful-1974699_1920.png");
+  background: linear-gradient(to right, #a784c4,#219c41);
   background-position: center;
   background-repeat: no-repeat;
   min-width: 100%;
@@ -29,7 +28,7 @@ body {
   background:#FFF; 
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 .left {
