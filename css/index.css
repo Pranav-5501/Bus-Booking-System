@@ -24,7 +24,7 @@
     margin: 0;
     padding: 0;
     background: #DDD;
-    background-image: url("/img/index1.png");
+    background-image: url("index1.png");
     background-repeat: no-repeat;
     background-size:100%;
     background-attachment: 100%;
